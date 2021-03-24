@@ -1,6 +1,8 @@
 package com.leiming.food.entity.param;
 
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.leiming.food.entity.MallProduct;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -20,7 +22,7 @@ import javax.validation.constraints.Min;
 @NoArgsConstructor
 @Builder
 @Accessors(chain = true)
-public class ProductListParam {
+public class ProductListParam extends Page<MallProduct> {
 
     /**
      * 商品id
@@ -39,11 +41,21 @@ public class ProductListParam {
      * 分类id
      */
 
-    private Integer categoryId;
+    private Long categoryId;
 
     /**
      * 商品上架状态：0-下架，1-上架
      */
-    private Integer status;
+    private Integer status = 1;
+
+    /**
+     * 排序字段
+     */
+    private String orderBy;
+
+    /**
+     * 升序降序
+     */
+    private Integer upOrDown;
 
 }

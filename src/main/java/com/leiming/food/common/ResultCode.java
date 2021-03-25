@@ -12,7 +12,10 @@ public enum ResultCode {
     PARAM_NOT_COMPLETE(10004, "参数缺失"),
     CATEGORY_REPEAT(10005, "分类名不能重复"),
     PRODUCT_NAME_REPEAT(10005, "产品名字重复"),
-    PRODUCT_NOT_FOUND(10005, "未找到改商品，操作失败！"),
+    PRODUCT_NOT_FOUND(10005, "未找到该商品，操作失败！"),
+    PRODUCT_NO_STOCK(10005, "商品库存不足！"),
+    PRODUCT_COUNT_INVALID(10005, "商品数量无效！"),
+    CART_NOT_FOUND(10005, "对应的购物车不存在！"),
 
     /* 用户错误：20001-29999*/
     USER_NOT_LOGGED_IN(20001, "用户未登录"),

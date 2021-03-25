@@ -1,11 +1,8 @@
 package com.leiming.food.utils.filter;
 
 import cn.hutool.core.util.ObjectUtil;
-import com.leiming.food.common.ApiRestResponse;
 import com.leiming.food.common.Constant;
-import com.leiming.food.common.ResultCode;
 import com.leiming.food.entity.User;
-import com.leiming.food.exception.MallException;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
@@ -19,7 +16,9 @@ import java.io.PrintWriter;
  * @author LovelyLM
  * @date 2021-03-21 17:27
  */
-public class AdminFilter implements Filter {
+public class UserFilter implements Filter {
+
+    public static  User currentUser;
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
 
@@ -30,8 +29,8 @@ public class AdminFilter implements Filter {
 
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpSession session = request.getSession();
-        User user = (User) session.getAttribute(Constant.LOGIN_USER);
-        if (ObjectUtil.isEmpty(user)){
+        currentUser = (User) session.getAttribute(Constant.LOGIN_USER);
+        if (ObjectUtil.isEmpty(currentUser)){
             PrintWriter out = new HttpServletResponseWrapper(
                     (HttpServletResponse) servletResponse).getWriter();
             out.write("{\n"
@@ -42,16 +41,6 @@ public class AdminFilter implements Filter {
             out.flush();
             out.close();
             return;
-        } else if (!user.getRole().equals(Constant.ADMIN_ROLE)){
-            PrintWriter out = new HttpServletResponseWrapper(
-                    (HttpServletResponse) servletResponse).getWriter();
-            out.write("{\n"
-                    + "    \"status\": 403,\n"
-                    + "    \"msg\": \"NEED_ADMIN\",\n"
-                    + "    \"data\": null\n"
-                    + "}");
-            out.flush();
-            out.close();
         }
         filterChain.doFilter(servletRequest, servletResponse);
     }

@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.leiming.food.entity.MallCart;
 import com.leiming.food.entity.vo.CartVo;
 
+
 import java.util.List;
 
 /**
@@ -19,14 +20,14 @@ public interface MallCartService extends IService<MallCart> {
      * @param userId 用户id
      * @param productId  商品id
      * @param count 数量
-     * @return
+     * @return 返回值
      */
     void add(Long userId, Long productId, Integer count);
 
     /**
      * 查询所有用户的购物车
      * @param userId 用户id
-     * @return
+     * @return 返回值
      */
     List<CartVo> getCarList(Long userId);
 
@@ -36,6 +37,26 @@ public interface MallCartService extends IService<MallCart> {
      * @param productId 商品id
      */
     void deleteCart(Long userId, Long productId);
+
+    /**
+     * 选中购物车
+     * @param userId 用户id
+     * @param productId 商品id
+     * @param select 选中状态
+     * @return 返回值
+     */
+    List<CartVo> selectOrNot(Long userId, Long productId, Integer select);
+
+    /**
+     * 全选购物车
+     * @param userId 用户id
+     * @param select 选中状态
+     * @return 返回值
+     */
+    List<CartVo> selectAllOrNot(Long userId, Integer select);
+
+
+
 
 
 

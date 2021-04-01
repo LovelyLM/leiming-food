@@ -1,17 +1,17 @@
 package com.leiming.food.controller;
 
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.extension.api.ApiController;
-import com.baomidou.mybatisplus.extension.api.R;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.leiming.food.entity.MallOrder;
-import com.leiming.food.service.MallOrderService;
-import org.springframework.web.bind.annotation.*;
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.leiming.food.common.ApiRestResponse;
+import com.leiming.food.entity.MallOrder;
+import com.leiming.food.entity.param.OrderAddParam;
+import com.leiming.food.service.MallOrderService;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
-import java.io.Serializable;
-import java.util.List;
+import javax.validation.Valid;
+import javax.validation.constraints.NotEmpty;
 
 /**
  * 订单表;(MallOrder)表控制层
@@ -20,67 +20,34 @@ import java.util.List;
  * @since 2021-03-08 19:53:59
  */
 @RestController
-@RequestMapping("mallOrder")
-public class MallOrderController extends ApiController {
+@RequestMapping("order")
+@Validated
+public class MallOrderController {
     /**
      * 服务对象
      */
     @Resource
     private MallOrderService mallOrderService;
 
-    /**
-     * 分页查询所有数据
-     *
-     * @param page      分页对象
-     * @param mallOrder 查询实体
-     * @return 所有数据
-     */
-    @GetMapping
-    public R selectAll(Page<MallOrder> page, MallOrder mallOrder) {
-        return success(this.mallOrderService.page(page, new QueryWrapper<>(mallOrder)));
-    }
 
     /**
-     * 通过主键查询单条数据
-     *
-     * @param id 主键
-     * @return 单条数据
+     * 创建订单
+     * @param param 订单创建实体
+     * @return 返回值
      */
-    @GetMapping("{id}")
-    public R selectOne(@PathVariable Serializable id) {
-        return success(this.mallOrderService.getById(id));
+    @PostMapping("createOrder")
+    public ApiRestResponse createOrder(@RequestBody @Valid OrderAddParam param) {
+        mallOrderService.createOder(param);
+        return ApiRestResponse.success();
     }
 
-    /**
-     * 新增数据
-     *
-     * @param mallOrder 实体对象
-     * @return 新增结果
-     */
-    @PostMapping
-    public R insert(@RequestBody MallOrder mallOrder) {
-        return success(this.mallOrderService.save(mallOrder));
+    @GetMapping("getOrderDetail")
+    public ApiRestResponse getOrderDetail(@NotEmpty(message = "订单No.不能为空") String orderNo){
+        return ApiRestResponse.success(mallOrderService.getOrderDetail(orderNo));
     }
 
-    /**
-     * 修改数据
-     *
-     * @param mallOrder 实体对象
-     * @return 修改结果
-     */
-    @PutMapping
-    public R update(@RequestBody MallOrder mallOrder) {
-        return success(this.mallOrderService.updateById(mallOrder));
-    }
-
-    /**
-     * 删除数据
-     *
-     * @param idList 主键结合
-     * @return 删除结果
-     */
-    @DeleteMapping
-    public R delete(@RequestParam("idList") List<Long> idList) {
-        return success(this.mallOrderService.removeByIds(idList));
+    @GetMapping("getOrderList")
+    public ApiRestResponse getOrderList(Page<MallOrder> page){
+        return ApiRestResponse.success(mallOrderService.getOrderDetailList(page));
     }
 }

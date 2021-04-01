@@ -1,10 +1,15 @@
 package com.leiming.food.entity;
 
+import java.math.BigDecimal;
 import java.util.Date;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
 
 
 /**
@@ -14,6 +19,10 @@ import lombok.Data;
  * @since 2021-03-08 19:53:59
  */
 @Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Accessors(chain = true)
 public class MallOrderItem {
 
     /**
@@ -40,7 +49,7 @@ public class MallOrderItem {
     /**
      * 单价（下单时的快照）
      */
-    private Integer unitPrice;
+    private BigDecimal unitPrice;
     /**
      * 商品数量
      */
@@ -48,7 +57,7 @@ public class MallOrderItem {
     /**
      * 商品总价
      */
-    private Integer totalPrice;
+    private BigDecimal totalPrice;
     /**
      * 创建时间
      */

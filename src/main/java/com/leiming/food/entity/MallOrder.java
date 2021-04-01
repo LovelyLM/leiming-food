@@ -1,10 +1,15 @@
 package com.leiming.food.entity;
 
+import java.math.BigDecimal;
 import java.util.Date;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
 
 
 /**
@@ -14,6 +19,10 @@ import lombok.Data;
  * @since 2021-03-08 19:53:58
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@Accessors(chain = true)
 public class MallOrder {
 
     /**
@@ -32,7 +41,7 @@ public class MallOrder {
     /**
      * 订单总价格
      */
-    private Integer totalPrice;
+    private BigDecimal totalPrice;
     /**
      * 收货人姓名快照
      */

@@ -3,6 +3,7 @@ package com.leiming.food.exception;
 import java.util.ArrayList;
 import java.util.List;
 
+import cn.hutool.core.util.StrUtil;
 import com.leiming.food.common.ApiRestResponse;
 import com.leiming.food.common.ResultBuilder;
 import com.leiming.food.common.ResultCode;
@@ -18,6 +19,8 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import javax.validation.ValidationException;
 
 /**
  * 描述：     处理统一异常的handler
@@ -46,6 +49,8 @@ public class GlobalExceptionHandler {
         return ResultBuilder.fail(ResultCode.INTERFACE_JSON_ERROR);
     }
 
+
+
     @ExceptionHandler(MallException.class)
     public Object handleImoocMallException(MallException e) {
         log.error("MallException: ", e);
@@ -57,6 +62,14 @@ public class GlobalExceptionHandler {
     public ApiRestResponse handleBindException(BindException e) {
         log.error("BindException: ", e);
         return handleBindingResult(e.getBindingResult());
+    }
+
+    @ExceptionHandler(ValidationException.class)
+    public Object validationException(ValidationException e) {
+        String msg = StrUtil.sub(e.getLocalizedMessage(), e.getLocalizedMessage().indexOf(":") + 1, e.getLocalizedMessage().length() + 1);
+        log.error("ValidationException: ", e);
+        return ApiRestResponse.error(500, msg.trim());
+
     }
 
     private ApiRestResponse handleBindingResult(BindingResult result) {

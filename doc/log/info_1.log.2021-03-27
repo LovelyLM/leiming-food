@@ -1,0 +1,1086 @@
+[16:45:51:993] [INFO] - org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21) - HV000001: Hibernate Validator 6.1.7.Final
+[16:45:52:063] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting FoodApplication using Java 1.8.0_40 on LovelyLM-TaiShi with PID 7680 (E:\mypersonnel\IdeaProject\food\target\classes started by 10796 in E:\mypersonnel\IdeaProject\food)
+[16:45:52:066] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:660) - No active profile set, falling back to default profiles: default
+[16:45:56:512] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:250) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[16:45:56:515] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:128) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[16:45:56:571] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:188) - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+[16:45:57:947] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[16:45:57:957] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[16:45:57:958] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:45:57:958] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[16:45:58:088] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:45:58:088] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:289) - Root WebApplicationContext: initialization completed in 5892 ms
+[16:46:00:657] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[16:46:00:865] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:46:02:650] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[16:46:02:686] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[16:46:02:687] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[16:46:02:731] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[16:46:02:781] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[16:46:03:067] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: findCategoryPageUsingGET_1
+[16:46:03:120] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: deleteUsingDELETE_1
+[16:46:03:131] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+[16:46:03:145] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: selectAllUsingGET_1
+[16:46:03:147] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: selectOneUsingGET_1
+[16:46:03:149] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: updateUsingPUT_1
+[16:46:03:176] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: findCategoryPageUsingGET_2
+[16:46:03:888] [INFO] - org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.finishRegistration(ScheduledAnnotationBeanPostProcessor.java:309) - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[16:46:03:898] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started FoodApplication in 12.686 seconds (JVM running for 16.001)
+[16:55:57:050] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[16:55:57:050] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[16:55:57:052] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 2 ms
+[16:55:57:217] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:55:57:217] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:55:57:217] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/user/login
+[16:55:57:217] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：GET
+[16:55:57:217] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:55:57:220] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.UserController.login
+[16:55:57:220] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[User(id=null, username=leiming, password=123456789, personalizedSignature=null, role=null, createTime=null, updateTime=null, salt=null), org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper$HttpSessionWrapper@41fbcd10]
+[16:55:57:220] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:55:57:220] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:55:57:345] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[16:55:57:658] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[16:55:57:858] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[16:55:57:858] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[16:55:57:859] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[16:55:57:921] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":null}
+[16:55:57:921] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[16:55:57:921] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[16:55:57:921] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[16:56:03:150] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:56:03:150] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:56:03:150] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/user/login
+[16:56:03:150] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：GET
+[16:56:03:150] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:56:03:150] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.UserController.login
+[16:56:03:150] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[User(id=null, username=leiming, password=123456789, personalizedSignature=null, role=null, createTime=null, updateTime=null, salt=null), org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper$HttpSessionWrapper@766647df]
+[16:56:03:150] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:56:03:150] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:56:03:153] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[16:56:03:153] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[16:56:03:154] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[16:56:03:154] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":null}
+[16:56:03:154] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[16:56:03:155] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[16:56:03:155] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[16:56:06:803] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:56:06:803] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:56:06:803] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/getCarList
+[16:56:06:803] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：GET
+[16:56:06:804] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:56:06:804] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.getCarList
+[16:56:06:804] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[]
+[16:56:06:804] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:56:06:804] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:56:06:814] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[16:56:06:815] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[16:56:06:815] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[16:56:06:822] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[]}
+[16:56:06:822] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[16:56:06:822] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[16:56:06:822] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[16:56:13:513] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:56:13:513] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:56:13:513] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/add
+[16:56:13:514] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[16:56:13:514] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:56:13:514] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.add
+[16:56:13:514] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, 1]
+[16:56:13:514] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:56:13:514] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:56:13:531] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[16:56:13:532] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[16:56:13:532] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[16:56:13:532] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":null}
+[16:56:13:532] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[16:56:13:532] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[16:56:13:532] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[16:56:14:778] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:56:14:778] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:56:14:778] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/add
+[16:56:14:778] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[16:56:14:778] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:56:14:778] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.add
+[16:56:14:778] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, 1]
+[16:56:14:779] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:56:14:779] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:56:14:791] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[16:56:14:791] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[16:56:14:791] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[16:56:14:792] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":null}
+[16:56:14:792] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[16:56:14:792] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[16:56:14:792] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[16:56:16:765] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:56:16:765] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:56:16:765] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/getCarList
+[16:56:16:765] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：GET
+[16:56:16:765] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:56:16:765] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.getCarList
+[16:56:16:765] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[]
+[16:56:16:765] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:56:16:765] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:56:16:820] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[16:56:16:820] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[16:56:16:820] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[16:56:16:824] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":4,"productId":3,"userId":13,"quantity":2,"selected":1,"createTime":1616835373000,"updateTime":1616835373000,"price":1000,"totalPrice":2000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[16:56:16:824] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[16:56:16:824] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[16:56:16:824] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[16:56:18:838] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:56:18:838] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:56:18:838] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/getCarList
+[16:56:18:838] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：GET
+[16:56:18:838] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:56:18:838] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.getCarList
+[16:56:18:839] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[]
+[16:56:18:839] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:56:18:839] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:56:18:845] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[16:56:18:846] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[16:56:18:846] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[16:56:18:850] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":4,"productId":3,"userId":13,"quantity":2,"selected":1,"createTime":1616835373000,"updateTime":1616835373000,"price":1000,"totalPrice":2000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[16:56:18:850] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[16:56:18:850] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[16:56:18:850] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[16:56:22:628] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:56:22:628] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:56:22:628] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/deleteCart
+[16:56:22:628] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[16:56:22:628] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:56:22:629] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.deleteCart
+[16:56:22:629] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[null]
+[16:56:22:629] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:56:22:629] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:56:22:759] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[16:56:22:759] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[16:56:22:759] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[16:56:22:760] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":null}
+[16:56:22:760] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[16:56:22:760] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[16:56:22:760] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[16:56:23:597] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:56:23:597] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:56:23:597] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/deleteCart
+[16:56:23:597] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[16:56:23:597] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:56:23:597] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.deleteCart
+[16:56:23:598] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[null]
+[16:56:23:598] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:56:23:598] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:56:24:386] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:56:24:386] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:56:24:387] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/deleteCart
+[16:56:24:387] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[16:56:24:387] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:56:24:387] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.deleteCart
+[16:56:24:387] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[null]
+[16:56:24:387] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:56:24:387] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:56:24:919] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:56:24:919] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:56:24:919] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/deleteCart
+[16:56:24:919] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[16:56:24:920] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:56:24:920] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.deleteCart
+[16:56:24:920] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[null]
+[16:56:24:920] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:56:24:920] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:56:25:341] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:56:25:342] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:56:25:342] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/deleteCart
+[16:56:25:342] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[16:56:25:342] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:56:25:342] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.deleteCart
+[16:56:25:342] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[null]
+[16:56:25:342] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:56:25:342] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:56:32:629] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:56:32:629] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:56:32:629] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/getCarList
+[16:56:32:629] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：GET
+[16:56:32:629] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:56:32:629] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.getCarList
+[16:56:32:629] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[]
+[16:56:32:629] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:56:32:630] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:56:32:633] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[16:56:32:633] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[16:56:32:633] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[16:56:32:634] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[]}
+[16:56:32:635] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[16:56:32:635] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[16:56:32:635] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[16:56:34:796] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:56:34:796] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:56:34:796] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/add
+[16:56:34:796] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[16:56:34:796] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:56:34:796] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.add
+[16:56:34:796] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, 1]
+[16:56:34:797] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:56:34:797] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:56:34:804] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[16:56:34:804] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[16:56:34:805] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[16:56:34:805] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":null}
+[16:56:34:805] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[16:56:34:806] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[16:56:34:806] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[16:58:03:980] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:58:03:981] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[16:58:03:986] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[16:58:09:138] [INFO] - org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21) - HV000001: Hibernate Validator 6.1.7.Final
+[16:58:09:162] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting FoodApplication using Java 1.8.0_40 on LovelyLM-TaiShi with PID 13668 (E:\mypersonnel\IdeaProject\food\target\classes started by 10796 in E:\mypersonnel\IdeaProject\food)
+[16:58:09:165] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:660) - No active profile set, falling back to default profiles: default
+[16:58:10:013] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:250) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[16:58:10:015] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:128) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[16:58:10:038] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:188) - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[16:58:10:728] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[16:58:10:735] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[16:58:10:735] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:58:10:736] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[16:58:10:795] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:58:10:796] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:289) - Root WebApplicationContext: initialization completed in 1568 ms
+[16:58:12:235] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[16:58:12:416] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:58:13:586] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[16:58:13:594] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[16:58:13:595] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[16:58:13:610] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[16:58:13:641] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[16:58:13:762] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: findCategoryPageUsingGET_1
+[16:58:13:798] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: deleteUsingDELETE_1
+[16:58:13:806] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+[16:58:13:816] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: selectAllUsingGET_1
+[16:58:13:817] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: selectOneUsingGET_1
+[16:58:13:818] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: updateUsingPUT_1
+[16:58:13:847] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: findCategoryPageUsingGET_2
+[16:58:14:524] [INFO] - org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.finishRegistration(ScheduledAnnotationBeanPostProcessor.java:309) - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[16:58:14:532] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started FoodApplication in 5.765 seconds (JVM running for 6.882)
+[16:58:32:423] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[16:58:32:424] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[16:58:32:425] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[16:58:35:960] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:58:35:960] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:58:35:960] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[16:58:35:960] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[16:58:35:960] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:58:35:962] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[16:58:35:962] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[null, null]
+[16:58:35:962] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:58:35:962] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:58:36:023] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[16:58:36:131] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[16:59:18:368] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[16:59:18:369] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[16:59:18:375] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[16:59:23:833] [INFO] - org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21) - HV000001: Hibernate Validator 6.1.7.Final
+[16:59:23:855] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting FoodApplication using Java 1.8.0_40 on LovelyLM-TaiShi with PID 24248 (E:\mypersonnel\IdeaProject\food\target\classes started by 10796 in E:\mypersonnel\IdeaProject\food)
+[16:59:23:858] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:660) - No active profile set, falling back to default profiles: default
+[16:59:24:650] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:250) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[16:59:24:651] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:128) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[16:59:24:675] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:188) - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[16:59:25:321] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[16:59:25:328] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[16:59:25:328] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:59:25:328] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[16:59:25:389] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:59:25:389] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:289) - Root WebApplicationContext: initialization completed in 1467 ms
+[16:59:26:800] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[16:59:26:963] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[16:59:28:051] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[16:59:28:059] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[16:59:28:060] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[16:59:28:073] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[16:59:28:102] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[16:59:28:212] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: findCategoryPageUsingGET_1
+[16:59:28:248] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: deleteUsingDELETE_1
+[16:59:28:256] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+[16:59:28:265] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: selectAllUsingGET_1
+[16:59:28:266] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: selectOneUsingGET_1
+[16:59:28:268] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: updateUsingPUT_1
+[16:59:28:286] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: findCategoryPageUsingGET_2
+[16:59:28:979] [INFO] - org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.finishRegistration(ScheduledAnnotationBeanPostProcessor.java:309) - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[16:59:28:985] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started FoodApplication in 5.468 seconds (JVM running for 6.611)
+[16:59:47:133] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[16:59:47:133] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[16:59:47:134] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[16:59:47:178] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:59:47:178] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:59:47:178] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[16:59:47:178] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[16:59:47:178] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:59:47:179] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[16:59:47:179] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[null, null]
+[16:59:47:179] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:59:47:179] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:59:49:481] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:59:49:481] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:59:49:481] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[16:59:49:481] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[16:59:49:481] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:59:49:481] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[16:59:49:481] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, null]
+[16:59:49:481] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:59:49:482] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:59:49:535] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[16:59:49:641] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[16:59:49:734] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[16:59:49:734] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[16:59:49:734] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[16:59:49:738] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":null}
+[16:59:49:738] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[16:59:49:738] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[16:59:49:738] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[16:59:50:718] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:59:50:718] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:59:50:718] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[16:59:50:718] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[16:59:50:718] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:59:50:718] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[16:59:50:718] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, null]
+[16:59:50:719] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:59:50:719] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:59:50:730] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[16:59:50:730] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[16:59:50:730] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[16:59:50:731] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":null}
+[16:59:50:731] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[16:59:50:731] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[16:59:50:731] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[16:59:51:385] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[16:59:51:385] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[16:59:51:385] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[16:59:51:385] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[16:59:51:386] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[16:59:51:386] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[16:59:51:386] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, null]
+[16:59:51:386] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[16:59:51:386] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[16:59:51:397] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[16:59:51:397] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[16:59:51:397] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[16:59:51:398] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":null}
+[16:59:51:398] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[16:59:51:398] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[16:59:51:398] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[17:00:13:973] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[17:00:13:975] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[17:00:13:981] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[17:00:19:091] [INFO] - org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21) - HV000001: Hibernate Validator 6.1.7.Final
+[17:00:19:122] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting FoodApplication using Java 1.8.0_40 on LovelyLM-TaiShi with PID 16260 (E:\mypersonnel\IdeaProject\food\target\classes started by 10796 in E:\mypersonnel\IdeaProject\food)
+[17:00:19:125] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:660) - No active profile set, falling back to default profiles: default
+[17:00:20:087] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:250) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[17:00:20:089] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:128) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[17:00:20:113] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:188) - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[17:00:20:778] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[17:00:20:785] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[17:00:20:785] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:00:20:785] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[17:00:20:845] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:00:20:845] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:289) - Root WebApplicationContext: initialization completed in 1649 ms
+[17:00:22:218] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[17:00:22:376] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:00:23:497] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[17:00:23:505] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[17:00:23:506] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[17:00:23:519] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[17:00:23:549] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[17:00:23:659] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: findCategoryPageUsingGET_1
+[17:00:23:694] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: deleteUsingDELETE_1
+[17:00:23:701] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+[17:00:23:710] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: selectAllUsingGET_1
+[17:00:23:711] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: selectOneUsingGET_1
+[17:00:23:712] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: updateUsingPUT_1
+[17:00:23:731] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: findCategoryPageUsingGET_2
+[17:00:24:398] [INFO] - org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.finishRegistration(ScheduledAnnotationBeanPostProcessor.java:309) - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[17:00:24:405] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started FoodApplication in 5.622 seconds (JVM running for 6.871)
+[17:00:34:303] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[17:00:39:162] [INFO] - org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21) - HV000001: Hibernate Validator 6.1.7.Final
+[17:00:39:183] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting FoodApplication using Java 1.8.0_40 on LovelyLM-TaiShi with PID 23120 (E:\mypersonnel\IdeaProject\food\target\classes started by 10796 in E:\mypersonnel\IdeaProject\food)
+[17:00:39:186] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:660) - No active profile set, falling back to default profiles: default
+[17:00:39:898] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:250) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[17:00:39:900] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:128) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[17:00:39:920] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:188) - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[17:00:40:513] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[17:00:40:520] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[17:00:40:520] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:00:40:520] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[17:00:40:581] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:00:40:581] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:289) - Root WebApplicationContext: initialization completed in 1331 ms
+[17:00:41:943] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[17:00:42:087] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:00:43:306] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[17:00:43:315] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[17:00:43:316] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[17:00:43:331] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[17:00:43:361] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[17:00:43:479] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: findCategoryPageUsingGET_1
+[17:00:43:515] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: deleteUsingDELETE_1
+[17:00:43:523] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+[17:00:43:532] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: selectAllUsingGET_1
+[17:00:43:533] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: selectOneUsingGET_1
+[17:00:43:535] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: updateUsingPUT_1
+[17:00:43:564] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: findCategoryPageUsingGET_2
+[17:00:44:249] [INFO] - org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.finishRegistration(ScheduledAnnotationBeanPostProcessor.java:309) - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[17:00:44:256] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started FoodApplication in 5.416 seconds (JVM running for 6.447)
+[17:00:48:617] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:00:48:617] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:00:48:618] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[17:01:48:001] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[17:01:48:001] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[17:01:48:001] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[17:01:48:001] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[17:01:48:001] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[17:01:48:002] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[17:01:48:002] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[1, null]
+[17:01:48:003] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[17:01:48:003] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[17:01:59:969] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[17:02:00:085] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[17:02:07:647] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[17:02:07:647] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[17:02:07:647] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[17:02:07:647] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[17:02:07:647] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[17:02:07:647] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[17:02:07:647] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[1, null]
+[17:02:07:648] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[17:02:07:648] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[17:02:12:907] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[17:02:12:907] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[17:02:12:907] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[17:02:12:908] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[17:02:12:908] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[17:02:12:908] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[17:02:12:908] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, null]
+[17:02:12:908] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[17:02:12:908] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[17:02:12:952] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[17:02:12:952] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[17:02:12:952] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[17:02:12:964] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":1,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[17:02:12:965] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[17:02:12:965] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[17:02:12:965] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[17:02:15:435] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[17:02:15:435] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[17:02:15:435] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[17:02:15:435] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[17:02:15:436] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[17:02:15:436] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[17:02:15:436] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, null]
+[17:02:15:436] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[17:02:15:436] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[17:02:15:446] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[17:02:15:446] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[17:02:15:446] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[17:02:15:450] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":1,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[17:02:15:450] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[17:02:15:450] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[17:02:15:450] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[17:02:23:204] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[17:02:23:204] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[17:02:23:204] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[17:02:23:204] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[17:02:23:204] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[17:02:23:205] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[17:02:23:205] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, 0]
+[17:02:23:205] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[17:02:23:205] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[17:02:23:219] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[17:02:23:219] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[17:02:23:220] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[17:02:23:224] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":0,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[17:02:23:224] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[17:02:23:225] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[17:02:23:225] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[17:02:23:861] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[17:02:23:861] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[17:02:23:862] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[17:02:23:862] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[17:02:23:862] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[17:02:23:862] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[17:02:23:862] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, 0]
+[17:02:23:863] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[17:02:23:863] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[17:02:23:872] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[17:02:23:872] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[17:02:23:873] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[17:02:23:875] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":0,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[17:02:23:875] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[17:02:23:875] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[17:02:23:875] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[17:02:24:418] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[17:02:24:418] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[17:02:24:418] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[17:02:24:418] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[17:02:24:418] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[17:02:24:418] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[17:02:24:418] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, 0]
+[17:02:24:418] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[17:02:24:418] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[17:02:24:429] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[17:02:24:429] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[17:02:24:430] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[17:02:24:431] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":0,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[17:02:24:431] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[17:02:24:431] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[17:02:24:432] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[17:02:24:787] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[17:02:24:787] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[17:02:24:788] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[17:02:24:788] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[17:02:24:788] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[17:02:24:789] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[17:02:24:789] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, 0]
+[17:02:24:789] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[17:02:24:789] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[17:02:24:800] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[17:02:24:800] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[17:02:24:801] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[17:02:24:803] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":0,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[17:02:24:803] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[17:02:24:803] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[17:02:24:803] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[17:02:25:699] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[17:02:25:699] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[17:02:25:699] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[17:02:25:699] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[17:02:25:699] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[17:02:25:699] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[17:02:25:699] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, 0]
+[17:02:25:699] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[17:02:25:699] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[17:02:25:708] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[17:02:25:708] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[17:02:25:708] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[17:02:25:710] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":0,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[17:02:25:710] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[17:02:25:710] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[17:02:25:710] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[17:02:31:111] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[17:02:31:111] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[17:02:31:111] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[17:02:31:111] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[17:02:31:111] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[17:02:31:111] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[17:02:31:112] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, 77]
+[17:02:31:112] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[17:02:31:112] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[17:02:31:125] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[17:02:31:125] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[17:02:31:125] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[17:02:31:127] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":77,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[17:02:31:127] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[17:02:31:128] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[17:02:31:128] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[17:02:31:930] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[17:02:31:930] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[17:02:31:930] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[17:02:31:930] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[17:02:31:930] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[17:02:31:930] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[17:02:31:931] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, 77]
+[17:02:31:931] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[17:02:31:931] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[17:02:31:938] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[17:02:31:938] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[17:02:31:938] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[17:02:31:940] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":77,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[17:02:31:940] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[17:02:31:941] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[17:02:31:941] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[17:02:36:363] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[17:02:36:364] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[17:02:36:364] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectCart
+[17:02:36:364] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[17:02:36:364] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[17:02:36:364] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectCart
+[17:02:36:364] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[3, 0]
+[17:02:36:364] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[17:02:36:364] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[17:02:36:373] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[17:02:36:373] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[17:02:36:373] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[17:02:36:374] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":0,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[17:02:36:375] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[17:02:36:375] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[17:02:36:375] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[20:23:14:785] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[20:23:14:787] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[20:23:14:790] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[20:23:28:633] [INFO] - org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21) - HV000001: Hibernate Validator 6.1.7.Final
+[20:23:28:657] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting FoodApplication using Java 1.8.0_40 on LovelyLM-TaiShi with PID 1768 (E:\mypersonnel\IdeaProject\food\target\classes started by 10796 in E:\mypersonnel\IdeaProject\food)
+[20:23:28:662] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:660) - No active profile set, falling back to default profiles: default
+[20:23:29:983] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:250) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[20:23:29:985] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:128) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[20:23:30:008] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:188) - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+[20:23:30:701] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[20:23:30:709] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[20:23:30:710] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[20:23:30:710] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.43]
+[20:23:30:782] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[20:23:30:783] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:289) - Root WebApplicationContext: initialization completed in 2048 ms
+[20:23:32:220] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[20:23:32:361] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[20:23:33:582] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[20:23:33:590] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[20:23:33:591] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[20:23:33:605] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[20:23:33:635] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[20:23:33:743] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: findCategoryPageUsingGET_1
+[20:23:33:782] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: deleteUsingDELETE_1
+[20:23:33:789] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: insertUsingPOST_1
+[20:23:33:798] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: selectAllUsingGET_1
+[20:23:33:799] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: selectOneUsingGET_1
+[20:23:33:801] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: updateUsingPUT_1
+[20:23:33:828] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: findCategoryPageUsingGET_2
+[20:23:34:498] [INFO] - org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.finishRegistration(ScheduledAnnotationBeanPostProcessor.java:309) - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[20:23:34:505] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started FoodApplication in 6.373 seconds (JVM running for 7.878)
+[20:23:39:666] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[20:23:39:666] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[20:23:39:667] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[20:23:43:843] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[20:23:43:843] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[20:23:43:843] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/user/login
+[20:23:43:843] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：GET
+[20:23:43:843] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[20:23:43:846] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.UserController.login
+[20:23:43:846] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[User(id=null, username=leiming, password=123456789, personalizedSignature=null, role=null, createTime=null, updateTime=null, salt=null), org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper$HttpSessionWrapper@6956b7a2]
+[20:23:43:846] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[20:23:43:846] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[20:23:43:909] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[20:23:44:054] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[20:23:44:108] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[20:23:44:108] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[20:23:44:108] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[20:23:44:127] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":null}
+[20:23:44:127] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[20:23:44:127] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[20:23:44:127] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[20:24:01:821] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[20:24:01:821] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[20:24:01:821] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectAllCart
+[20:24:01:821] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[20:24:01:821] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[20:24:01:821] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectAllCart
+[20:24:01:822] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[1]
+[20:24:01:822] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[20:24:01:822] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[20:24:01:878] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[20:24:01:879] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[20:24:01:879] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[20:24:01:888] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":1,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[20:24:01:888] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[20:24:01:889] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[20:24:01:889] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[20:24:06:423] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[20:24:06:423] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[20:24:06:423] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectAllCart
+[20:24:06:423] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[20:24:06:423] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[20:24:06:423] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectAllCart
+[20:24:06:424] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[0]
+[20:24:06:424] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[20:24:06:424] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[20:24:06:438] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[20:24:06:438] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[20:24:06:439] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[20:24:06:442] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":0,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[20:24:06:442] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[20:24:06:442] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[20:24:06:442] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[20:24:07:939] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[20:24:07:939] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[20:24:07:939] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectAllCart
+[20:24:07:939] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[20:24:07:939] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[20:24:07:939] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectAllCart
+[20:24:07:939] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[0]
+[20:24:07:940] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[20:24:07:940] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[20:24:07:951] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[20:24:07:951] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[20:24:07:951] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[20:24:07:954] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":0,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[20:24:07:954] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[20:24:07:954] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[20:24:07:954] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[20:24:08:514] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[20:24:08:514] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[20:24:08:514] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectAllCart
+[20:24:08:514] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[20:24:08:514] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[20:24:08:514] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectAllCart
+[20:24:08:514] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[0]
+[20:24:08:514] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[20:24:08:514] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[20:24:08:524] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[20:24:08:524] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[20:24:08:524] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[20:24:08:526] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":0,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[20:24:08:527] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[20:24:08:527] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[20:24:08:527] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[20:24:08:860] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[20:24:08:861] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[20:24:08:861] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectAllCart
+[20:24:08:861] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[20:24:08:861] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[20:24:08:861] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectAllCart
+[20:24:08:861] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[0]
+[20:24:08:861] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[20:24:08:862] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[20:24:08:873] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[20:24:08:873] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[20:24:08:873] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[20:24:08:876] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":0,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[20:24:08:876] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[20:24:08:876] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[20:24:08:876] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[20:24:12:372] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[20:24:12:372] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[20:24:12:372] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectAllCart
+[20:24:12:372] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[20:24:12:372] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[20:24:12:372] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectAllCart
+[20:24:12:372] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[1]
+[20:24:12:372] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[20:24:12:372] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[20:24:12:384] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[20:24:12:384] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[20:24:12:384] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[20:24:12:386] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":1,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"}]}
+[20:24:12:386] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[20:24:12:386] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[20:24:12:386] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[20:35:28:515] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[20:35:28:515] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[20:35:28:515] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/add
+[20:35:28:515] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[20:35:28:515] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[20:35:28:515] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.add
+[20:35:28:515] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[8, 1]
+[20:35:28:516] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[20:35:28:516] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[20:35:42:900] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[20:35:42:900] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[20:35:42:900] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/add
+[20:35:42:900] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[20:35:42:900] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[20:35:42:901] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.add
+[20:35:42:901] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[8, 23]
+[20:35:42:901] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[20:35:42:901] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[20:35:53:168] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[20:35:53:168] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[20:35:53:168] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/add
+[20:35:53:168] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[20:35:53:168] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[20:35:53:169] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.add
+[20:35:53:169] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[23, 1]
+[20:35:53:169] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[20:35:53:169] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[20:35:53:185] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[20:35:53:185] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[20:35:53:185] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[20:35:53:186] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":null}
+[20:35:53:186] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[20:35:53:186] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[20:35:53:186] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[20:35:58:130] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[20:35:58:130] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[20:35:58:130] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/add
+[20:35:58:131] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[20:35:58:131] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[20:35:58:131] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.add
+[20:35:58:131] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[25, 1]
+[20:35:58:131] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[20:35:58:131] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[20:35:58:141] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[20:35:58:141] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[20:35:58:141] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[20:35:58:142] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":null}
+[20:35:58:142] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[20:35:58:142] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[20:35:58:142] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[20:36:00:699] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[20:36:00:700] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[20:36:00:700] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/add
+[20:36:00:700] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[20:36:00:700] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[20:36:00:700] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.add
+[20:36:00:700] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[26, 1]
+[20:36:00:700] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[20:36:00:700] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[20:36:00:717] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[20:36:00:717] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[20:36:00:717] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[20:36:00:718] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":null}
+[20:36:00:718] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[20:36:00:718] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[20:36:00:718] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[20:36:03:299] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[20:36:03:299] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[20:36:03:299] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/getCarList
+[20:36:03:299] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：GET
+[20:36:03:299] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[20:36:03:299] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.getCarList
+[20:36:03:299] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[]
+[20:36:03:300] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[20:36:03:300] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[20:36:03:310] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[20:36:03:310] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[20:36:03:310] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[20:36:03:313] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":1,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"},{"id":6,"productId":23,"userId":13,"quantity":1,"selected":1,"createTime":1616848553000,"updateTime":1616848553000,"price":12,"totalPrice":12,"productName":"澳大利亚直采鲜橙 精品澳橙12粒 单果130-180g","productImage":"http://111.231.103.117:8081/images/chengzi.jpg"},{"id":7,"productId":25,"userId":13,"quantity":1,"selected":1,"createTime":1616848558000,"updateTime":1616848558000,"price":222,"totalPrice":222,"productName":"新疆库尔勒克伦生无籽红提 国产新鲜红提葡萄 提子 5斤装","productImage":"http://111.231.103.117:8081/images/hongti.jpg"},{"id":8,"productId":26,"userId":13,"quantity":1,"selected":1,"createTime":1616848560000,"updateTime":1616848560000,"price":222,"totalPrice":222,"productName":"越南进口红心火龙果 4个装 红肉中果 单果约330-420g","productImage":"http://111.231.103.117:8081/images/hongxinhuolongguo.jpg"}]}
+[20:36:03:313] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[20:36:03:313] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[20:36:03:313] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+
+[20:36:39:159] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:40) - ******************************
+[20:36:39:159] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:41) - 
+
+[20:36:39:159] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:42) - URL:/cart/selectAllCart
+[20:36:39:160] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:43) - 方法：POST
+[20:36:39:160] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - IP地址：127.0.0.1
+[20:36:39:160] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - com.leiming.food.controller.MallCartController.selectAllCart
+[20:36:39:160] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - 参数：[0]
+[20:36:39:160] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - 
+
+[20:36:39:160] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - ******************************
+[20:36:39:231] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:54) - 
+
+[20:36:39:231] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:55) - 
+
+[20:36:39:231] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:56) - ******************************
+[20:36:39:233] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:57) - 响应数据：{"status":0,"msg":"操作成功","data":[{"id":5,"productId":3,"userId":13,"quantity":1,"selected":0,"createTime":1616835394000,"updateTime":1616835394000,"price":1000,"totalPrice":1000,"productName":"茶树菇 美味菌菇 东北山珍 500g","productImage":"http://111.231.103.117:8081/images/chashugu.jpg"},{"id":6,"productId":23,"userId":13,"quantity":1,"selected":0,"createTime":1616848553000,"updateTime":1616848553000,"price":12,"totalPrice":12,"productName":"澳大利亚直采鲜橙 精品澳橙12粒 单果130-180g","productImage":"http://111.231.103.117:8081/images/chengzi.jpg"},{"id":7,"productId":25,"userId":13,"quantity":1,"selected":0,"createTime":1616848558000,"updateTime":1616848558000,"price":222,"totalPrice":222,"productName":"新疆库尔勒克伦生无籽红提 国产新鲜红提葡萄 提子 5斤装","productImage":"http://111.231.103.117:8081/images/hongti.jpg"},{"id":8,"productId":26,"userId":13,"quantity":1,"selected":0,"createTime":1616848560000,"updateTime":1616848560000,"price":222,"totalPrice":222,"productName":"越南进口红心火龙果 4个装 红肉中果 单果约330-420g","productImage":"http://111.231.103.117:8081/images/hongxinhuolongguo.jpg"}]}
+[20:36:39:233] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:58) - ******************************
+[20:36:39:234] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:59) - 
+
+[20:36:39:234] [INFO] - com.leiming.food.utils.filter.WebLogAspect.doAfter(WebLogAspect.java:60) - 
+

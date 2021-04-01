@@ -55,6 +55,7 @@ public class ProductController {
         BeanUtil.copyProperties(addParam, product);
         productService.save(product);
         return ApiRestResponse.success();
+
     }
 
     /**
@@ -89,6 +90,7 @@ public class ProductController {
     public ApiRestResponse updateStatusBatch(@RequestParam Long[] ids, Integer status){
         productService.batchUpdateStatus(ids, status);
         return ApiRestResponse.success();
+
     }
 
 
@@ -111,8 +113,9 @@ public class ProductController {
     @PostMapping("upload")
     public ApiRestResponse uploadFile(@RequestParam("file")MultipartFile file, HttpServletRequest request) throws IOException, URISyntaxException {
 
-        String OriginalFilename = file.getOriginalFilename();
-        String fileExtName = OriginalFilename.substring(OriginalFilename.lastIndexOf("."));
+        String originalFilename = file.getOriginalFilename();
+        assert originalFilename != null;
+        String fileExtName = originalFilename.substring(originalFilename.lastIndexOf("."));
         String uuid = IdUtil.simpleUUID();
         String fileName = uuid  + fileExtName;
         File fileDir = new File(Constant.FILE_UPLOAD_DIR);
@@ -123,7 +126,7 @@ public class ProductController {
             }
         }
         file.transferTo(destFile);
-        return ApiRestResponse.success(getURI(new URI(request.getRequestURL().toString())) + "/upload/" + fileName);
+        return ApiRestResponse.success(getUri(new URI(request.getRequestURL().toString())) + "/upload/" + fileName);
 
     }
 
@@ -134,9 +137,9 @@ public class ProductController {
      * @return
      * @throws URISyntaxException
      */
-    private URI getURI(URI uri) throws URISyntaxException {
-        URI newURI;
-        newURI = new URI(uri.getScheme(), uri.getUserInfo(), uri.getHost(), uri.getPort(), null, null, null);
-        return newURI;
+    private URI getUri(URI uri) throws URISyntaxException {
+        URI newUri;
+        newUri = new URI(uri.getScheme(), uri.getUserInfo(), uri.getHost(), uri.getPort(), null, null, null);
+        return newUri;
     }
 }

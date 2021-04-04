@@ -30,6 +30,42 @@ public interface MallOrderService extends IService<MallOrder> {
      */
     OrderVo getOrderDetail(String orderNo);
 
+    /**
+     * 获取订单列表
+     * @param page
+     * @return
+     */
     Page<OrderVo> getOrderDetailList(Page<MallOrder> page);
 
+    /**
+     * 获取所有订单列表
+     * @param page
+     * @return
+     */
+    Page<OrderVo> getAllOrderDetailList(Page<MallOrder> page);
+
+
+    /**
+     * 取消订单
+     * @param orderNo
+     */
+    void orderCancel(String orderNo);
+
+    /**
+     * 支付
+     * @param orderNo
+     */
+    void pay(String orderNo);
+
+    /**
+     * 发货
+     * @param orderNo
+     */
+    void delivered(String orderNo);
+
+    /**
+     * 完成订单
+     * @param orderNo
+     */
+    void finished(String orderNo);
 }

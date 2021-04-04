@@ -18,7 +18,12 @@ public enum ResultCode {
     PRODUCT_COUNT_INVALID(10010, "商品数量无效！"),
     CART_NOT_FOUND(10011, "对应的购物车不存在！"),
     CART_ITEM_NONE(10012, "购物车已勾选商品为空！！"),
-    ORDER_ITEM_NOT_FOUND(10008, "订单未找到，操作失败！"),
+    ORDER_ITEM_NOT_FOUND(100013, "订单未找到，操作失败！"),
+    ORDER_STATUS_ERROR(100014, "订单状态不符"),
+    QR_INVALIDATION(100015, "二维码已失效"),
+    ORDER_CANT_DELIVERED(100016, "订单已取消或未支付或已发货，无法发货"),
+    ORDER_CANT_FINISHED(100017, "订单已还未发货或已完成，无法完成"),
+    ORDER_CANT_PAY(100017, "订单已支付或完成，无法支付"),
 
 
     /* 用户错误：20001-29999*/

@@ -6,6 +6,7 @@ import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.NumberUtil;
 import cn.hutool.core.util.ObjectUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.extension.api.R;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.leiming.food.common.Constant;
@@ -156,7 +157,27 @@ public class MallOrderServiceImpl extends ServiceImpl<MallOrderDao, MallOrder> i
         return  getOrderByOrderNo(order, orderNo);
     }
 
+    @Override
+    public Page<OrderVo> getAllOrderDetailList(Page<MallOrder> page) {
 
+
+
+        Page<MallOrder> orderPage = this.page(page);
+        List<MallOrder> orderList = orderPage.getRecords();
+        //若没有订单，直接返回
+        if (CollectionUtil.isEmpty(orderList)){
+            Page<OrderVo> orderVoPage = new Page<>();
+            BeanUtil.copyProperties(orderPage, orderVoPage);
+            return orderVoPage;
+        }
+        List<OrderVo> orderVoList = orderList.stream().map(order -> getOrderByOrderNo(order, order.getOrderNo())).collect(Collectors.toList());
+        Page<OrderVo> orderVoPage = new Page<>();
+        BeanUtil.copyProperties(orderPage, orderVoPage);
+        orderVoPage.setRecords(orderVoList);
+
+
+        return orderVoPage;
+    }
 
     @Override
     public Page<OrderVo> getOrderDetailList(Page<MallOrder> page) {
@@ -183,6 +204,63 @@ public class MallOrderServiceImpl extends ServiceImpl<MallOrderDao, MallOrder> i
         return orderVoPage;
     }
 
+    /**
+     * 取消订单
+     * @param orderNo
+     */
+    @Override
+    public void orderCancel(String orderNo) {
+        MallOrder order = validOrder(orderNo);
+        if (!order.getOrderStatus().equals(Constant.ORDER_NOT_PAY)){
+            throw new MallException(ResultCode.ORDER_STATUS_ERROR);
+        }
+        order.setOrderStatus(Constant.ORDER_CANCEL);
+        this.updateById(order);
+    }
+
+    /**
+     * 支付订单
+     * @param orderNo
+     */
+    @Override
+    public void pay(String orderNo) {
+        MallOrder order = validOrder(orderNo);
+        if (ObjectUtil.notEqual(order.getOrderStatus(), Constant.ORDER_NOT_PAY)){
+            throw new MallException(ResultCode.ORDER_CANT_PAY);
+        }
+        order.setOrderStatus(Constant.ORDER_PAID).setPayTime(new Date());
+        this.updateById(order);
+    }
+
+    /**
+     * 发货
+     * @param orderNo
+     */
+    @Override
+    public void delivered(String orderNo) {
+        MallOrder order = validOrder(orderNo);
+        if (ObjectUtil.notEqual(order.getOrderStatus(), Constant.ORDER_PAID)){
+            throw new MallException(ResultCode.ORDER_CANT_DELIVERED);
+        }
+        order.setOrderStatus(Constant.ORDER_DELIVERED).setDeliveryTime(new Date());
+        this.updateById(order);
+
+    }
+
+    /**
+     * 完成订单
+     * @param orderNo
+     */
+    @Override
+    public void finished(String orderNo) {
+        MallOrder order = validOrder(orderNo);
+        if (ObjectUtil.notEqual(order.getOrderStatus(), Constant.ORDER_DELIVERED)){
+            throw new MallException(ResultCode.ORDER_CANT_FINISHED);
+        }
+        order.setOrderStatus(Constant.ORDER_FINISHED).setEndTime(new Date());
+        this.updateById(order);
+    }
+
 
     /**
      * 验证商品时候存在（包括是否上架）和商品库存是否足够
@@ -202,7 +280,44 @@ public class MallOrderServiceImpl extends ServiceImpl<MallOrderDao, MallOrder> i
         }
     }
 
+    /**
+     * 验证订单No
+     * @param orderNo
+     * @return
+     */
+    private MallOrder validOrder(String orderNo){
+        //获取用户id
+        Long userId = UserFilter.currentUser.getId();
+        QueryWrapper<MallOrder> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("order_no", orderNo);
+        MallOrder order = this.getOne(queryWrapper);
 
+        //订单未找到
+        if (ObjectUtil.isEmpty(order)){
+            throw new MallException(ResultCode.ORDER_NOT_FOUND);
+        }
+
+        if (order.getOrderStatus().equals(Constant.ORDER_PAID)){
+            return order;
+        }
+        if (UserFilter.currentUser.getRole().equals(Constant.ADMIN_ROLE)){
+            return order;
+        }
+        //订单不属于当前用户
+        if (ObjectUtil.notEqual(order.getUserId(), userId)){
+            throw new MallException(ResultCode.ORDER_NOT_FOUND);
+        }
+
+        return order;
+    }
+
+
+    /**
+     * 通过订单No获取订单详情
+     * @param order
+     * @param orderNo
+     * @return
+     */
     private OrderVo getOrderByOrderNo(MallOrder order, String orderNo){
         //查询订单item
         QueryWrapper<MallOrderItem> queryWrapperOrderItem = new QueryWrapper<>();

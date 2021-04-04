@@ -24,5 +24,8 @@ public class Constant {
     public static final Integer ORDER_DELIVERED = 3;
     public static final Integer ORDER_FINISHED = 4;
 
+    public static final String IP = "127.0.0.1";
+
+
     public static final String FILE_UPLOAD_DIR = "E:\\mypersonnel\\IdeaProject\\food\\src\\main\\resources\\static\\upload\\";
 }

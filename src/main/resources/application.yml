@@ -8,7 +8,9 @@ spring:
     host: 127.0.0.1
     port: 6379
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/shengxian-ol?useUnicode=true&useSSL=false&serverTimezone=Asia/Shanghai
+    tomcat:
+      initSQL: SET NAMES utf8mb4
+    url: jdbc:mysql://127.0.0.1:3306/shengxian-ol?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver

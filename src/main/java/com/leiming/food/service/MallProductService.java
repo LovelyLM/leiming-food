@@ -1,7 +1,9 @@
 package com.leiming.food.service;
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.leiming.food.entity.MallProduct;
+import com.leiming.food.entity.param.ProductListParam;
 import com.leiming.food.entity.param.ProductUpdateParam;
 
 /**
@@ -30,5 +32,12 @@ public interface MallProductService extends IService<MallProduct> {
      * @param status 状态
      */
     void batchUpdateStatus(Long[] ids, Integer status);
+
+    /**
+     * 查询所有分类，可带条件
+     * @param param
+     * @return
+     */
+    Page<MallProduct> getList(ProductListParam param);
 
 }

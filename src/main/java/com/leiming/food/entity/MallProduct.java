@@ -1,5 +1,6 @@
 package com.leiming.food.entity;
 
+import java.math.BigDecimal;
 import java.util.Date;
 
 import com.baomidou.mybatisplus.annotation.IdType;
@@ -42,7 +43,7 @@ public class MallProduct {
     /**
      * 价格,单位-分
      */
-    private Integer price;
+    private BigDecimal price;
     /**
      * 库存数量
      */

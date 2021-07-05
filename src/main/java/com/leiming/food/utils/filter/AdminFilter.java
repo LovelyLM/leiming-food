@@ -9,8 +9,11 @@ import com.leiming.food.exception.MallException;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpServletResponseWrapper;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 /**
  * @author LovelyLM
@@ -29,9 +32,26 @@ public class AdminFilter implements Filter {
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute(Constant.LOGIN_USER);
         if (ObjectUtil.isEmpty(user)){
-            throw new MallException(ResultCode.USER_NOT_LOGGED_IN);
+            PrintWriter out = new HttpServletResponseWrapper(
+                    (HttpServletResponse) servletResponse).getWriter();
+            out.write("{\n"
+                    + "    \"status\": 500,\n"
+                    + "    \"msg\": \"NEED_LOGIN\",\n"
+                    + "    \"data\": null\n"
+                    + "}");
+            out.flush();
+            out.close();
+            return;
         } else if (!user.getRole().equals(Constant.ADMIN_ROLE)){
-            throw new MallException(ResultCode.PERMISSION_NO_ACCESS);
+            PrintWriter out = new HttpServletResponseWrapper(
+                    (HttpServletResponse) servletResponse).getWriter();
+            out.write("{\n"
+                    + "    \"status\": 403,\n"
+                    + "    \"msg\": \"NEED_ADMIN\",\n"
+                    + "    \"data\": null\n"
+                    + "}");
+            out.flush();
+            out.close();
         }
         filterChain.doFilter(servletRequest, servletResponse);
     }

@@ -2,18 +2,13 @@ package com.leiming.food.controller;
 
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.extension.api.ApiController;
-import com.baomidou.mybatisplus.extension.api.R;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.leiming.food.common.ApiRestResponse;
 import com.leiming.food.entity.MallProduct;
+import com.leiming.food.entity.param.ProductListParam;
 import com.leiming.food.service.MallProductService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.io.Serializable;
-import java.util.List;
 
 /**
  * 商品表(MallProduct)表控制层
@@ -37,12 +32,9 @@ public class ProductController {
     }
 
     @GetMapping("/list")
-    public ApiRestResponse getDetailList(MallProduct product){
-        LambdaQueryWrapper<MallProduct> queryWrapper = new LambdaQueryWrapper<>();
-        queryWrapper.eq(MallProduct::getId,"id").eq(MallProduct::getName, "name");
-     
+    public ApiRestResponse getDetailList(ProductListParam param){
 
-        return ApiRestResponse.success(product);
+        return ApiRestResponse.success(productService.getList(param));
     }
 
 

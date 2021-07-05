@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
-import javax.validation.constraints.NotBlank;
+
 
 
 /**
@@ -28,7 +28,7 @@ import javax.validation.constraints.NotBlank;
  */
 @Slf4j
 @RestController
-@RequestMapping("mallUser")
+@RequestMapping("user")
 public class UserController {
     /**
      * 服务对象
@@ -51,9 +51,9 @@ public class UserController {
 
     /**
      * 用户登录
-     * @param user
-     * @param session
-     * @return
+     * @param user 用户实体
+     * @param session session
+     * @return 统一返回值
      */
     @GetMapping("login")
     public ApiRestResponse login(@Valid User user, HttpSession session) {

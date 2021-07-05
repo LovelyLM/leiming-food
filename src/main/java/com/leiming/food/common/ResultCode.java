@@ -11,8 +11,20 @@ public enum ResultCode {
     PARAM_TYPE_BIND_ERROR(10003, "参数类型错误"),
     PARAM_NOT_COMPLETE(10004, "参数缺失"),
     CATEGORY_REPEAT(10005, "分类名不能重复"),
-    PRODUCT_NAME_REPEAT(10005, "产品名字重复"),
-    PRODUCT_NOT_FOUND(10005, "未找到改商品，操作失败！"),
+    PRODUCT_NAME_REPEAT(10006, "产品名字重复"),
+    PRODUCT_NOT_FOUND(10007, "未找到该商品或该商品已下架，操作失败！"),
+    ORDER_NOT_FOUND(10008, "订单未找到，操作失败！"),
+    PRODUCT_NO_STOCK(10009, "商品库存不足！"),
+    PRODUCT_COUNT_INVALID(10010, "商品数量无效！"),
+    CART_NOT_FOUND(10011, "对应的购物车不存在！"),
+    CART_ITEM_NONE(10012, "购物车已勾选商品为空！！"),
+    ORDER_ITEM_NOT_FOUND(100013, "订单未找到，操作失败！"),
+    ORDER_STATUS_ERROR(100014, "订单状态不符"),
+    QR_INVALIDATION(100015, "二维码已失效"),
+    ORDER_CANT_DELIVERED(100016, "订单已取消或未支付或已发货，无法发货"),
+    ORDER_CANT_FINISHED(100017, "订单已还未发货或已完成，无法完成"),
+    ORDER_CANT_PAY(100017, "订单已支付或完成，无法支付"),
+
 
     /* 用户错误：20001-29999*/
     USER_NOT_LOGGED_IN(20001, "用户未登录"),
